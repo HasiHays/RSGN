@@ -1,0 +1,62 @@
+{
+  "RSGN+Hebbian": {
+    "accuracy_mean": 0.2383333333333333,
+    "accuracy_std": 0.0018856180831641283,
+    "parameters": 41672,
+    "all_accuracies": [
+      0.241,
+      0.237,
+      0.237
+    ]
+  },
+  "RSGN": {
+    "accuracy_mean": 0.23766666666666666,
+    "accuracy_std": 0.0009428090415820641,
+    "parameters": 41672,
+    "all_accuracies": [
+      0.237,
+      0.239,
+      0.237
+    ]
+  },
+  "Transformer": {
+    "accuracy_mean": 0.3013333333333333,
+    "accuracy_std": 0.0020548046676563273,
+    "parameters": 403348,
+    "all_accuracies": [
+      0.299,
+      0.301,
+      0.304
+    ]
+  },
+  "Sparse Trans.": {
+    "accuracy_mean": 0.15866666666666665,
+    "accuracy_std": 0.0024944382578492965,
+    "parameters": 403348,
+    "all_accuracies": [
+      0.156,
+      0.158,
+      0.162
+    ]
+  },
+  "LSTM": {
+    "accuracy_mean": 0.18066666666666667,
+    "accuracy_std": 0.0041096093353126546,
+    "parameters": 566292,
+    "all_accuracies": [
+      0.186,
+      0.18,
+      0.176
+    ]
+  },
+  "MLP": {
+    "accuracy_mean": 0.15966666666666665,
+    "accuracy_std": 0.007586537784494035,
+    "parameters": 281364,
+    "all_accuracies": [
+      0.152,
+      0.157,
+      0.17
+    ]
+  }
+}

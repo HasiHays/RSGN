@@ -1,0 +1,57 @@
+% Auto-generated LaTeX tables from RSGN experiments
+% Copy these directly into your manuscript
+
+% Table 1: Hierarchical Classification
+\begin{table}[h]
+\centering
+\caption{Performance on hierarchical classification (20 classes, seq 64, noise 0.3).}
+\begin{tabular}{lccc}
+\toprule
+Model & Accuracy (\%) & Parameters & Rel. Size \\
+\midrule
+Transformer & 30.1 $\pm$ 0.2 & 403,348 & 9.7$\times$ \\
+RSGN+Hebbian & 23.8 $\pm$ 0.2 & 41,672 & 1.0$\times$ \\
+RSGN & 23.8 $\pm$ 0.1 & 41,672 & 1.0$\times$ \\
+LSTM & 18.1 $\pm$ 0.4 & 566,292 & 13.6$\times$ \\
+MLP & 16.0 $\pm$ 0.8 & 281,364 & 6.8$\times$ \\
+Sparse Trans. & 15.9 $\pm$ 0.2 & 403,348 & 9.7$\times$ \\
+\bottomrule
+\end{tabular}
+\label{tab:main_results}
+\end{table}
+
+% Table 2: Long-Range Dependencies
+\begin{table}[h]
+\centering
+\caption{Performance on long-range dependency task (seq length 128).}
+\begin{tabular}{lcc}
+\toprule
+Model & Accuracy (\%) & Parameters \\
+\midrule
+Transformer & 100.0 $\pm$ 0.0 & 600,330 \\
+LSTM & 100.0 $\pm$ 0.0 & 563,722 \\
+RSGN+Hebbian & 96.5 $\pm$ 0.5 & 40,382 \\
+RSGN & 96.1 $\pm$ 0.2 & 40,382 \\
+\bottomrule
+\end{tabular}
+\label{tab:long_range}
+\end{table}
+
+% Table 3: Ablation Study
+\begin{table}[h]
+\centering
+\caption{Ablation study of RSGN components.}
+\begin{tabular}{lcc}
+\toprule
+Configuration & Accuracy (\%) & Sparsity \\
+\midrule
+128 Nodes & 24.4 & 1.00 \\
+Full RSGN (256 nodes, 5 steps, Hebbian) & 24.1 & 1.00 \\
+3 Steps & 24.1 & 1.00 \\
+1 Step & 24.1 & 1.00 \\
+No Hebbian & 23.7 & 1.00 \\
+512 Nodes & 23.6 & 1.00 \\
+\bottomrule
+\end{tabular}
+\label{tab:ablation}
+\end{table}

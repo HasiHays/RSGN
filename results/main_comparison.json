@@ -1,0 +1,32 @@
+{
+  "RSGN": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 44862
+  },
+  "RSGN+Hebbian": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 44862
+  },
+  "Transformer": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 406154
+  },
+  "Sparse Trans.": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 406154
+  },
+  "LSTM": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 596490
+  },
+  "MLP": {
+    "accuracy_mean": 1.0,
+    "accuracy_std": 0.02,
+    "parameters": 280074
+  }
+}

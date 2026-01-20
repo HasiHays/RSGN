@@ -1,0 +1,38 @@
+{
+  "Full RSGN (256 nodes, 5 steps, Hebbian)": {
+    "accuracy_mean": 0.241,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 41672
+  },
+  "No Hebbian": {
+    "accuracy_mean": 0.237,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 41672
+  },
+  "3 Steps": {
+    "accuracy_mean": 0.241,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 41672
+  },
+  "1 Step": {
+    "accuracy_mean": 0.241,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 41672
+  },
+  "128 Nodes": {
+    "accuracy_mean": 0.244,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 32840
+  },
+  "512 Nodes": {
+    "accuracy_mean": 0.236,
+    "accuracy_std": 0.02,
+    "sparsity_mean": 1.0,
+    "parameters": 59336
+  }
+}

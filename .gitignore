@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+rsgn_env/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.notebook/
+
+# IDE
+.idea/
+.vscode/
+*.swp
