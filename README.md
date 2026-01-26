@@ -111,8 +111,7 @@ This generates:
 
 ```bibtex
 @article{hays2026rsgn,
-  title={Resonant Sparse Geometry Networks: A Brain-Inspired Architecture
-         with Self-Organizing Sparse Hierarchical Connectivity},
+  title={Resonant Sparse Geometry Networks},
   author={Hays, Hasi},
   journal={arXiv preprint},
   year={2026}
