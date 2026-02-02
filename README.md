@@ -110,15 +110,14 @@ This generates:
 ## Citation
 
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.2601.18064,
-  doi = {10.48550/ARXIV.2601.18064},
-  url = {https://arxiv.org/abs/2601.18064},
-  author = {Hays,  Hasi},
-  keywords = {Machine Learning (cs.LG),  Artificial Intelligence (cs.AI),  Neural and Evolutionary Computing (cs.NE),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
-  title = {Resonant Sparse Geometry Networks},
-  publisher = {arXiv},
-  year = {2026},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{hays2026rsgn,
+	title = {Resonant Sparse Geometry Networks},
+	doi = {10.48550/ARXIV.2601.18064},
+	url = {https://arxiv.org/abs/2601.18064},
+	author = {Hays,  Hasi},
+	publisher = {arXiv},
+	year = {2026},
+	copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
 
